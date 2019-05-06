@@ -1,12 +1,10 @@
 package com.company.enroller.persistence;
 
+import com.company.enroller.model.Participant;
 import org.hibernate.Transaction;
-
-import java.util.Collection;
-
 import org.springframework.stereotype.Component;
 
-import com.company.enroller.model.Participant;
+import java.util.Collection;
 
 @Component("participantService")
 public class ParticipantService {
